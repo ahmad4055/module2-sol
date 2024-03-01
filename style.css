@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.section {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.section-title {
+    position: relative;
+    text-align: right;
+    top: 0;
+    right: 0;
+    background-color: #ddd;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+/* Media Queries for Tablet View */
+@media (max-width: 991px) {
+    .section {
+        width: 50%;
+    }
+
+    #section3 {
+        clear: both;
+    }
+}
+
+/* Media Queries for Mobile View */
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
+=======
+>>>>>>> f119a0a7182bfe441eb6fc90e739419e5301af72
+
