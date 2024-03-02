@@ -13,6 +13,7 @@ header {
 
 .section {
     box-sizing: border-box;
+    background-color: blue;
     float: left;
     width: 33.33%;
     padding: 20px;
@@ -33,9 +34,11 @@ header {
 @media (max-width: 991px) {
     .section {
         width: 50%;
+
     }
 
-    #section3 {
+   .section:nth-child(3n+1) {
+        width: 100%;
         clear: both;
     }
 }
@@ -46,6 +49,5 @@ header {
         width: 100%;
     }
 }
-=======
->>>>>>> f119a0a7182bfe441eb6fc90e739419e5301af72
+
 
